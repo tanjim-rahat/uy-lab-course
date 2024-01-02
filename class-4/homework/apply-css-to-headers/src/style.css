@@ -1,0 +1,34 @@
+.heading {
+    text-align: center;
+    font-size: 32px;
+    margin: 40px 100px;
+    padding: 20px;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+h1 {
+    background-color: brown;
+}
+
+h2 {
+    background-color: chocolate;
+}
+
+h3 {
+    background-color: blueviolet;
+}
+
+h4 {
+    background-color: darkgreen;
+}
+
+h5 {
+    background-color: dodgerblue;
+}
+
+h6 {
+    background-color: goldenrod;
+}
+
