@@ -1,0 +1,41 @@
+body {
+    padding: 40px;
+    background-color: rgb(213, 213, 213);
+}
+
+div {
+    padding: 20px;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    box-shadow: 2px 2px 3px 2px gray;
+}
+
+#box1 {
+    width: 200px;
+    background-color: brown;
+    color: white;
+}
+
+#box2 {
+    width: 150px;
+    background-color: cadetblue;
+    color: white;
+}
+
+#box3 {
+    width: 200px;
+    background-color:darkgreen;
+    color: white;
+}
+
+#box4 {
+    width: 250px;
+    background-color:deepskyblue;
+}
+
+#box5 {
+    width: 300px;
+    background-color:mediumpurple;
+    color: white;
+}
