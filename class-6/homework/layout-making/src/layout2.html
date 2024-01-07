@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Making</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div {
+            border-radius: 5px;
+        }
+
+        #container {
+            display: flex;
+            gap: 20px;
+            width: 1200px;
+            height: 600px;
+            background: #1a1a1a;
+            margin-top: 50px;
+            padding: 20px;
+        }
+
+        #container2 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .box1 {
+            width: 100%;
+            height: 50%;
+            background-color: red;
+        }
+
+        .box2 {
+            width: 100%;
+            height: 50%;
+            background-color: blueviolet;
+        }
+
+        .box3 {
+            width: 50%;
+            height: 100%;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Layout 2</h1>
+    <div id="container">
+        <div id="container2">
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+        <div class="box3"></div>
+    </div>
+</body>
+</html>

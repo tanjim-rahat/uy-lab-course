@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Making</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .flex-row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .flex-col {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .w-full { width: 100%; }
+        .h-full { height: 100%; }
+        .h-1\/5 { height: calc(100% / 5); }
+        .h-1\/6 { height: calc(100% / 6); }
+
+        .aqua {
+            background-color: aqua;
+        }
+        .red {
+            background-color: red;
+        }
+        .blue {
+            background-color: blueviolet;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div {
+            border-radius: 5px;
+        }
+
+        #container {
+            width: 1200px;
+            height: 600px;
+            background: #1a1a1a;
+            margin-top: 50px;
+            padding: 20px;
+        }
+        #container2 { height: calc(100% * 5 / 6); }        
+        #container3 { width: 75%; }
+        #container4 { height: calc(100% * 3 / 6); }
+
+        #block2 {
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Layout 4</h1>
+    <div id="container" class="flex-col">
+
+        <div id="block1" class="aqua w-full h-1/6"></div>
+
+        <div id="container2" class="flex-row w-full">
+
+            <div id="block2" class="red h-full"></div>
+            
+            <div id="container3" class="flex-col">
+
+                <div class="w-full h-1/5 blue"></div>
+                
+                <div id="container4" class="w-full flex-row">
+                    <div class="w-full h-full aqua"></div>
+                    <div class="w-full h-full aqua"></div>
+                    <div class="w-full h-full aqua"></div>
+                </div>
+                
+                <div class="w-full h-1/5 blue"></div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
